@@ -9,6 +9,9 @@ function setup() {
   speed=random(55.90);
   weight=random(400,1500);
   car.velocityX = speed;
+  
+  wall.shapeColor = "pink"
+  car.shapeColor = "purple"
 }
 
 function draw() {
